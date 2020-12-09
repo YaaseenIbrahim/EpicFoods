@@ -1,0 +1,98 @@
+
+body	{
+	font-family: Calibri;
+}
+h1	{
+	text-align: center;
+	font-family:Algerian;
+	font-size: 64px;
+	color: gold;
+}
+
+h2	{
+	font-size: 47px;
+}
+
+p	{
+	font-size: 24px;
+}
+
+img  {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a 	{
+	text-decoration: none;
+}
+
+.quote	{
+		font-size: 20px;
+}
+
+.Linkcolor	{
+			color: rgb(31, 158, 133) ;
+}
+
+.Linkcolor:hover {
+			color:   #208873;
+}
+
+.Linkcolor:active {
+			color:#15836d ;
+}
+
+
+.mostLinks {
+	color: #0000EE   ;
+}
+
+.mostLinks:active {
+	color:  #EE0000;
+}
+
+.mostLinks:visited {
+	color: null;
+}
+/* The heading glow element */
+
+#glow {
+  font-size: 80px;
+  color: gold;
+  text-align: center;
+  -webkit-animation: glow 1.5s ease-in-out infinite alternate;
+  -moz-animation: glow 1.5s ease-in-out infinite alternate;
+  animation: glow 1.57s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #4C4646, 0 0 20px #4C4646, 0 0 30px #DAA520, 0 0 40px #DAA520, 0 0 50px #DAA520, 0 0 60px #DAA520, 0 0 70px #DAA520;
+  }
+
+  to {
+    text-shadow: 0 0 30px #4C4646, 0 0 40px #4C4646, 0 0 50px #DAA520, 0 0 60px #DAA520, 0 0 70px #DAA520, 0 0 80px #DAA520, 0 0 90px #DAA520;
+  }
+}
+
+/* The Next Page Button */
+
+.nextpage	{
+			background-color:#f44336;
+			color: white;
+			text-align: center;
+			font-weight: 500;
+			font-size: 20px;
+			padding: 15px 25px;
+}
+
+.nextpage:hover	{
+				background-color: red;
+}
+
+.nextpage:active	{
+					background-color:#ba0000;
+					font-weight: 520;
+
+}
