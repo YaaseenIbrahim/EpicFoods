@@ -1,4 +1,4 @@
 # EpicFoods
 
 So first of all Welcome!
-Secobdly open index.html to open the webiste.
+Secondly open index.html to open the webiste.
