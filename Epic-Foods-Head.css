@@ -1,12 +1,19 @@
 
+@font-face{
+	font-family: 'oregon';
+	src: url(Fonts/Oregon\ Regular.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
 body	{
 	font-family: Calibri;
 }
 h1	{
 	text-align: center;
-	font-family:Algerian;
-	font-size: 64px;
+	font-family: oregon;
+	font-size: 100px;
 	color: gold;
+	font-weight: 100;
 }
 
 h2	{
@@ -58,7 +65,7 @@ a 	{
 /* The heading glow element */
 
 #glow {
-  font-size: 80px;
+  font-size: 100px;
   color: gold;
   text-align: center;
   -webkit-animation: glow 1.5s ease-in-out infinite alternate;
